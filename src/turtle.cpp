@@ -7,14 +7,18 @@
 ros::Publisher pub;
 ros::Subscriber sub;
 
+
 /****
-Do your callback function here.
-In this callback function, you need to write something
-to make the turtle move with square trajectory.
+void your_callback_function(const turtlesim::PoseConstPtr& msg)
+{
+	Do your callback function here.
+	In this callback function, you need to write something
+	to make the turtle move with square trajectory.
 
-...
-
+	...
+}
 ****/
+
 
 int main(int argc, char **argv)
 {
